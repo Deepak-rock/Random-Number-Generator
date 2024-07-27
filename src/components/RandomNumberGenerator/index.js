@@ -17,14 +17,14 @@ class RandomNumberGenerator extends Component {
     return (
       <div className="bg-container">
         <div className="content-container">
-          <h1 className="heading">Randow Number</h1>
+          <h1 className="heading">Random Number</h1>
           <p className="para">
-            Generate random number in the range of 0 to 100
+            Generate a random number in the range of 0 to 100
           </p>
           <button className="button" type="button" onClick={this.changeNum}>
             Generate
           </button>
-          <h1 className="count">{count}</h1>
+          <p className="count">{count}</p>
         </div>
       </div>
     )
